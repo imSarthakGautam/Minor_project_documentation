@@ -1,0 +1,60 @@
+\chapter{REQUIREMENT ANALYSIS}
+    
+\section{Hardware Requirements}
+Throughout the course of completion this project, the following hardware resources had been utilized.
+\subsection*{Google Colaboratory}
+Google Colaboratory aka Colab is an excellent platform for coding and experimenting with machine learning models including KNN and other machine learning algorithm by virtue of the environment it provides. It's cloud-based environment helps in model development by eliminating the need for local machine setup, empowering researchers and developers to engage in complex problem-solving without concerns about software dependencies or hardware limitations.
+Further, Colab also offers free access to GPU resources which would speed up the training and testing phase of all machine learning models significantly when dealing with large-scale datasets. Its real-time collaboration features enable multiple users to collaboratively edit and execute code within the same notebook simultaneously, fostering seamless teamwork and knowledge sharing. It also integrates seamlessly with Google Drive for data storage and sharing.
+It fosters collaborative work on implementation of machine learning model amongst the team members.
+\section{Software Requirements}
+
+Throughout the course of completion this project, the following software resources had been utilized.
+
+\subsection*{Kaggle}
+Kaggle is a platform that is utilized mainly for purpose of accessing and exploring the diverse datasets relevant to book preferences and interactions.
+It provides cloud based computing resources, including CPU and GPU, allowing the implementation of the collaborative filtering algorithm like: kNN, Jaccard similarity, SVD as well as deep learning algorithm on huge datasets with ease and without need for deployment of extensive hardware locally.
+
+
+\subsection*{Pandas and NumPy}
+Pandas and NumPy both are Python Libraries crucial for data preprocessing in machine learning pipeline.
+Pandas is data manipulation library which are mainly used for efficient cleaning, transformation and organization of dataset. The project handle various data formats and structures with ease, facilitating tasks such as data cleaning, feature engineering, and exploratory data analysis using Pandas.
+Similarly NumPy is numerical library used for numerical operation mostly used for operating on multidimensional arrays and matrices. It's optimized array operations and vectorized computations facilitate swift execution of numerical computations, rendering it a crucial asset for efficiently managing large datasets. It enhances the computational efficiency of data manipulation and preparation. Moreover, the smooth integration of both Pandas and NumPy with additional Python libraries and frameworks cements their status as indispensable elements within the machine learning workflow.
+
+\subsection*{Scikit-learn}
+Scikit-learn is key machine learning library used for implementing machine learning algorithms in our model i.e KNN algorithm, Matrix Factorization as well as dense neural network.
+For implementing the above mentioned algorithms, the utilization of Scikit-learn's  Nearest Neighbours, SVD, etc. takes place. Scikit-Learn is favoured in implementation of most systems because of the easy and efficient tools and functionalities it provides for integration of algorithms into the models and hence evaluating and comparing the performance of the algorithms. Scikit-learn's compatibility with other Python libraries also  ensures a smooth integration into the overall software ecosystem of the recommendation system.
+
+
+\subsection*{SQLite}
+
+SQLite is a lightweight, serverless, relational database management system. SQLite supports standard SQL syntax and provides a simple yet powerful solution for local storage. It is widely used for small scale applications and has good support. It has minimal setup and efficient performance which is perfect for a hassle free solution for a local database.
+
+\subsection*{Git and Github}
+Git is a distributed version control system that can handle any size project quickly and effectively. It is free and open-source. Git facilitates collaboration by enabling the merging of changes made by several individuals into a single source. Local software is called Git. On your computer, your files and their history are kept. Another option is to store a copy of the files and their revision history on web hosts like GitHub. Working together with other developers is made easier with a central location where you can upload and download changes from each other. Git allows two people to work on separate portions of the same file and then automatically merge their changes.
+
+\subsection*{Django}
+Django is a high-level Python web framework that simplifies the process of building web applications by providing a robust set of tools and functionalities. Django comes with built-in features for handling tasks like database management, URL routing, authentication, and form handling, allowing developers to focus on building the core logic of their applications. Its Model-View-Template (MVT) architecture promotes clean code organization and separation of concerns, making it easier to maintain and scale projects over time. Django promotes clean code organization and separation of concerns, facilitating easier maintenance and scalability as projects evolve. Its user-friendly documentation, vibrant community support, and adherence to industry best practices make it the framework of choice for building webapp for deploying machine learning models.
+
+\subsection*{TensorFlow}
+TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries, and community resources that let's researchers push the state-of-the-art in ML and developers easily build and deploy ML-powered applications. The project utilizes it's capabilities in building dense neural networks, where each neuron in one layer connects to every neuron in the next layer, enabling intricate pattern recognition and feature extraction from complex datasets. It's thorough documentation, strong community support, and seamless integration with other prominent libraries add to its allure in the realm of deep learning.
+\newpage
+\subsection*{Pickle}
+Pickle is a Python module utilized for converting Python objects into byte streams and vice versa. It's commonly employed for storing the state of objects, such as machine learning models, to disk for later use without requiring retraining. allows for the preservation of complex data structures and object states across different sessions or systems. It's advisable to only unpickle data from trusted sources as untrusted data can potentially pose security risks. The webapp has imported models using load functionality. The use of pickle is high in our current system for import of dataframe as well as list. 
+
+\section{Feasibility Study}
+
+\subsection{Economic Feasibility}
+To determine the economic feasibility of this project, the cost associated with developing the model must be considered. The technologies used offers a seamless and cost-effective
+approach to building a dynamic and responsive application, ensuring a high-quality
+user experience while minimizing development expenses. Moreover, the scalability and flexibility inherent in these technologies contribute to long-term cost savings by accommodating future growth and evolving user needs without significant additional investment. The utilization of open technologies like: Colab and framework like django eliminates substantial licensing costs, making our project economically viable.
+
+\subsection{Operational Feasibility}
+ The webapp developed on Django has a helpful user
+interfaces, so the end-users wouldn’t have problem operating the required application
+with ease. Django, being a versatile web framework, is compatible with various databases, web servers, and operating systems, ensuring that the book recommendation system can be seamlessly integrated into the organization's technical environment.Django's inherent administrative interface and modular architecture streamline the maintenance and updates of the recommendation system. The system's scalability ensures seamless operation even as the user base and recommendation load increase, without compromising performance.
+
+\newpage
+\subsection{Technical Feasibility}
+Development of this project required significant resources, particularly in terms of technological resources. The development team needed access to a range of hardware
+and software resources, including Colab for collaborative coding and Tensorflow for implementing machine learning algorithms, etc. An inspection to
+whether this system can be implemented with the available tools and experts shows an absolute requirements of at least few software developer with good knowledge of database, ML model and Django framework.
